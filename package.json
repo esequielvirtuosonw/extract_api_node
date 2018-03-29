@@ -1,0 +1,23 @@
+{
+  "name": "extractapi",
+  "version": "1.0.0",
+  "description": "responsible for extract data of bi api",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "extract",
+    "api",
+    "nodejs"
+  ],
+  "author": "raphael pacheco",
+  "license": "ISC",
+  "dependencies": {
+    "flat": "^4.0.0",
+    "nodemon": "^1.17.1",
+    "pg": "^7.4.1",
+    "request": "^2.83.0"
+  }
+}
