@@ -68,13 +68,13 @@ The next step is to inform the credentials to generate the access token. In the 
 
 Now, you just have to enter the database access information at the session postgreSql:
 
-```postgreSql : {
+`postgreSql : {
         user: 'yourUser',
         host: 'yourHost',
         database: 'databaseName',
         password: 'yourPassword',
         port: databasePort,
-}```
+}`
 
 ## Run
 
